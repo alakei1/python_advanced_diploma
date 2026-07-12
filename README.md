@@ -35,53 +35,20 @@
 
 <div style="display:flex; gap:1.5rem; margin-top:0.8rem; flex-wrap:wrap;">
   <span style="display:flex; align-items:center; gap:0.4rem; background:#dbeafe; padding:0.2rem 1rem; border-radius:30px;">
-    <span style="display:inline-block; width:10px; height:10px; background:#22c55e; border-radius:50%; animation:pulse-dot 1.5s ease-in-out infinite;"></span>
+    <span style="display:inline-block; width:10px; height:10px; background:#22c55e; border-radius:50%;">⬤</span>
     Сервер активен
   </span>
   <span style="display:flex; align-items:center; gap:0.4rem; background:#dbeafe; padding:0.2rem 1rem; border-radius:30px;">
-    <span style="display:inline-block; width:10px; height:10px; background:#3b82f6; border-radius:50%; animation:spin 2s linear infinite;"></span>
+    <span style="display:inline-block; width:10px; height:10px; background:#3b82f6; border-radius:50%;">⬤</span>
     API готов
   </span>
 </div>
 
-<style>
-  @keyframes pulse-dot {
-    0% { transform:scale(0.8); opacity:0.6; }
-    50% { transform:scale(1.2); opacity:1; }
-    100% { transform:scale(0.8); opacity:0.6; }
-  }
-  @keyframes spin {
-    0% { transform:rotate(0deg); }
-    100% { transform:rotate(360deg); }
-  }
-  .gradient-bar {
-    background:linear-gradient(90deg, #3b82f6, #22c55e, #eab308);
-    background-size:200% 100%;
-    animation:move-bg 3s linear infinite;
-  }
-  @keyframes move-bg {
-    0% { background-position:0% 0%; }
-    100% { background-position:200% 0%; }
-  }
-  .card-hover {
-    transition:all 0.2s ease;
-    cursor:default;
-  }
-  .card-hover:hover {
-    transform:translateY(-4px);
-    box-shadow:0 12px 28px rgba(0,0,0,0.08);
-  }
-  @keyframes count-up {
-    0% { opacity:0; transform:translateY(10px); }
-    100% { opacity:1; transform:translateY(0); }
-  }
-</style>
-
-<!-- Прогресс-бар с движущимся градиентом -->
-<div style="width:100%; background:#e2e8f0; border-radius:20px; height:10px; margin:1.5rem 0; overflow:hidden; box-shadow:inset 0 2px 4px rgba(0,0,0,0.05);">
-  <div class="gradient-bar" style="width:96%; height:10px; border-radius:20px;"></div>
+<!-- Прогресс-бар -->
+<div style="width:100%; background:#e2e8f0; border-radius:20px; height:10px; margin:1.5rem 0; overflow:hidden;">
+  <div style="width:96%; height:10px; border-radius:20px; background:#3b82f6;"></div>
 </div>
-<p align="center" style="margin:-0.5rem 0 1rem 0; font-size:0.9rem; color:#64748b;">Покрытие тестами: 96% (движущийся градиент)</p>
+<p align="center" style="margin:-0.5rem 0 1rem 0; font-size:0.9rem; color:#64748b;">Покрытие тестами: 96%</p>
 
 <hr>
 
