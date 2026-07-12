@@ -22,33 +22,26 @@
 </p>
 
 <hr style="border:0; border-top:2px dashed #cbd5e1;">
-
-<div style="background:linear-gradient(135deg,#f0f9ff,#e0f2fe); padding:1.5rem; border-radius:16px; margin:1.5rem 0; box-shadow:0 8px 24px rgba(59,130,246,0.12); border:1px solid #b3d4fc;">
-<h3 style="margin-top:0; color:#0f172a;">📌 О проекте</h3>
-<p style="font-size:1.05rem; line-height:1.7; color:#1e293b;">
-  <strong>Микроблог</strong> — это учебный бэкенд-сервис, имитирующий базовую функциональность Twitter 
-  (лента, твиты, лайки, подписки, загрузка медиа).<br>
-  Проект построен на <strong>FastAPI</strong> с асинхронной архитектурой, использует <strong>PostgreSQL</strong> 
-  в качестве базы данных и полностью контейнеризирован с помощью <strong>Docker</strong>.<br>
-  Предназначен для отработки навыков разработки REST API, работы с ORM, миграциями и CI/CD.
-</p>
-
 <div style="display:flex; gap:1.5rem; margin-top:0.8rem; flex-wrap:wrap;">
-  <span style="display:flex; align-items:center; gap:0.4rem; background:#dbeafe; padding:0.2rem 1rem; border-radius:30px;">
-    <span style="display:inline-block; width:10px; height:10px; background:#22c55e; border-radius:50%;">⬤</span>
-    Сервер активен
+  <span style="display:flex; align-items:center; gap:0.6rem; background:#fef2f2; padding:0.4rem 1.2rem; border-radius:30px; border:2px solid #ef4444; box-shadow: 0 2px 8px rgba(239,68,68,0.15);">
+    <span style="display:inline-block; width:12px; height:12px; background:#ef4444; border-radius:50%; box-shadow: 0 0 12px rgba(239,68,68,0.5);">⬤</span>
+    <span style="color:#991b1b; font-weight:600;">🔴 Сервер активен</span>
   </span>
-  <span style="display:flex; align-items:center; gap:0.4rem; background:#dbeafe; padding:0.2rem 1rem; border-radius:30px;">
-    <span style="display:inline-block; width:10px; height:10px; background:#3b82f6; border-radius:50%;">⬤</span>
-    API готов
+  <span style="display:flex; align-items:center; gap:0.6rem; background:#f0fdf4; padding:0.4rem 1.2rem; border-radius:30px; border:2px solid #22c55e; box-shadow: 0 2px 8px rgba(34,197,94,0.15);">
+    <span style="display:inline-block; width:12px; height:12px; background:#22c55e; border-radius:50%; box-shadow: 0 0 12px rgba(34,197,94,0.5);">⬤</span>
+    <span style="color:#166534; font-weight:600;">🟢 API готов</span>
   </span>
 </div>
 
-<!-- Прогресс-бар -->
-<div style="width:100%; background:#e2e8f0; border-radius:20px; height:10px; margin:1.5rem 0; overflow:hidden;">
-  <div style="width:96%; height:10px; border-radius:20px; background:#3b82f6;"></div>
+<!-- Прогресс-бар покрытия тестами с иконкой -->
+<div style="width:100%; background:#f1f5f9; border-radius:16px; height:32px; margin:1.5rem 0; overflow:hidden; border:2px solid #e2e8f0; position:relative;">
+  <div style="width:96%; height:32px; border-radius:16px; background: linear-gradient(90deg, #22c55e, #16a34a, #15803d, #22c55e); background-size: 300% 100%; display:flex; align-items:center; justify-content:center; font-weight:700; font-size:0.9rem; color:white; letter-spacing:0.5px;">
+    📊 96% покрытие тестами
+  </div>
 </div>
-<p align="center" style="margin:-0.5rem 0 1rem 0; font-size:0.9rem; color:#64748b;">Покрытие тестами: 96%</p>
+<p align="center" style="margin:-0.5rem 0 0 0; font-size:0.8rem; color:#64748b;">
+  ✅ Отлично! Код покрыт тестами
+</p>
 
 <hr>
 
