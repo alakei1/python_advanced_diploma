@@ -97,109 +97,89 @@
   <span class="card-hover" style="background:#fce7f3; padding:0.5rem 1.2rem; border-radius:30px; border:1px solid #f9a8d4; font-size:0.95rem;">🛡️ Автосоздание пользователей</span>
 </div>
 
-<hr>
-
 <h2>🛠️ Технологический стек</h2>
 
-<div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(160px,1fr)); gap:1rem; margin:1rem 0;">
-  <div class="card-hover" style="background:#ffffff; border-radius:12px; padding:1rem; text-align:center; border:1px solid #e2e8f0; box-shadow:0 2px 8px rgba(0,0,0,0.04);">
-    <div style="font-size:2.5rem;">🐍</div>
-    <div style="font-weight:600; color:#0f172a;">Python 3.10+</div>
-    <div style="font-size:0.8rem; color:#64748b;">Язык</div>
-  </div>
-  <div class="card-hover" style="background:#ffffff; border-radius:12px; padding:1rem; text-align:center; border:1px solid #e2e8f0; box-shadow:0 2px 8px rgba(0,0,0,0.04);">
-    <div style="font-size:2.5rem;">⚡</div>
-    <div style="font-weight:600; color:#0f172a;">FastAPI</div>
-    <div style="font-size:0.8rem; color:#64748b;">Веб-фреймворк</div>
-  </div>
-  <div class="card-hover" style="background:#ffffff; border-radius:12px; padding:1rem; text-align:center; border:1px solid #e2e8f0; box-shadow:0 2px 8px rgba(0,0,0,0.04);">
-    <div style="font-size:2.5rem;">🗄️</div>
-    <div style="font-weight:600; color:#0f172a;">SQLAlchemy</div>
-    <div style="font-size:0.8rem; color:#64748b;">ORM</div>
-  </div>
-  <div class="card-hover" style="background:#ffffff; border-radius:12px; padding:1rem; text-align:center; border:1px solid #e2e8f0; box-shadow:0 2px 8px rgba(0,0,0,0.04);">
-    <div style="font-size:2.5rem;">🐘</div>
-    <div style="font-weight:600; color:#0f172a;">PostgreSQL</div>
-    <div style="font-size:0.8rem; color:#64748b;">База данных</div>
-  </div>
-  <div class="card-hover" style="background:#ffffff; border-radius:12px; padding:1rem; text-align:center; border:1px solid #e2e8f0; box-shadow:0 2px 8px rgba(0,0,0,0.04);">
-    <div style="font-size:2.5rem;">🐳</div>
-    <div style="font-weight:600; color:#0f172a;">Docker</div>
-    <div style="font-size:0.8rem; color:#64748b;">Контейнеризация</div>
-  </div>
-  <div class="card-hover" style="background:#ffffff; border-radius:12px; padding:1rem; text-align:center; border:1px solid #e2e8f0; box-shadow:0 2px 8px rgba(0,0,0,0.04);">
-    <div style="font-size:2.5rem;">🌐</div>
-    <div style="font-weight:600; color:#0f172a;">Nginx</div>
-    <div style="font-size:0.8rem; color:#64748b;">Reverse‑proxy</div>
-  </div>
-  <div class="card-hover" style="background:#ffffff; border-radius:12px; padding:1rem; text-align:center; border:1px solid #e2e8f0; box-shadow:0 2px 8px rgba(0,0,0,0.04);">
-    <div style="font-size:2.5rem;">📚</div>
-    <div style="font-weight:600; color:#0f172a;">Swagger</div>
-    <div style="font-size:0.8rem; color:#64748b;">Документация API</div>
-  </div>
-  <div class="card-hover" style="background:#ffffff; border-radius:12px; padding:1rem; text-align:center; border:1px solid #e2e8f0; box-shadow:0 2px 8px rgba(0,0,0,0.04);">
-    <div style="font-size:2.5rem;">🧪</div>
-    <div style="font-weight:600; color:#0f172a;">pytest</div>
-    <div style="font-size:0.8rem; color:#64748b;">Тестирование</div>
-  </div>
-  <div class="card-hover" style="background:#ffffff; border-radius:12px; padding:1rem; text-align:center; border:1px solid #e2e8f0; box-shadow:0 2px 8px rgba(0,0,0,0.04);">
-    <div style="font-size:2.5rem;">🔄</div>
-    <div style="font-weight:600; color:#0f172a;">CI/CD</div>
-    <div style="font-size:0.8rem; color:#64748b;">GitLab / GitHub</div>
-  </div>
-</div>
+<table align="center">
+  <tr>
+    <td align="center" width="120" style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px;">
+      <div style="font-size: 2.5rem;">🐍</div>
+      <div><strong>Python 3.10+</strong></div>
+      <div style="font-size: 0.8rem; color: #64748b;">Язык</div>
+    </td>
+    <td align="center" width="120" style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px;">
+      <div style="font-size: 2.5rem;">⚡</div>
+      <div><strong>FastAPI</strong></div>
+      <div style="font-size: 0.8rem; color: #64748b;">Веб-фреймворк</div>
+    </td>
+    <td align="center" width="120" style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px;">
+      <div style="font-size: 2.5rem;">🗄️</div>
+      <div><strong>SQLAlchemy</strong></div>
+      <div style="font-size: 0.8rem; color: #64748b;">ORM</div>
+    </td>
+    <td align="center" width="120" style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px;">
+      <div style="font-size: 2.5rem;">🐘</div>
+      <div><strong>PostgreSQL</strong></div>
+      <div style="font-size: 0.8rem; color: #64748b;">База данных</div>
+    </td>
+    <td align="center" width="120" style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px;">
+      <div style="font-size: 2.5rem;">🐳</div>
+      <div><strong>Docker</strong></div>
+      <div style="font-size: 0.8rem; color: #64748b;">Контейнеризация</div>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="120" style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px;">
+      <div style="font-size: 2.5rem;">🌐</div>
+      <div><strong>Nginx</strong></div>
+      <div style="font-size: 0.8rem; color: #64748b;">Reverse-proxy</div>
+    </td>
+    <td align="center" width="120" style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px;">
+      <div style="font-size: 2.5rem;">📚</div>
+      <div><strong>Swagger</strong></div>
+      <div style="font-size: 0.8rem; color: #64748b;">Документация API</div>
+    </td>
+    <td align="center" width="120" style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px;">
+      <div style="font-size: 2.5rem;">🧪</div>
+      <div><strong>pytest</strong></div>
+      <div style="font-size: 0.8rem; color: #64748b;">Тестирование</div>
+    </td>
+    <td align="center" width="120" style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px;">
+      <div style="font-size: 2.5rem;">🔄</div>
+      <div><strong>CI/CD</strong></div>
+      <div style="font-size: 0.8rem; color: #64748b;">GitLab / GitHub</div>
+    </td>
+    <td align="center" width="120" style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px;">
+      <div style="font-size: 2.5rem;">☁️</div>
+      <div><strong>Render</strong></div>
+      <div style="font-size: 0.8rem; color: #64748b;">Деплой</div>
+    </td>
+  </tr>
+</table>
 
 <hr>
 
 <h2>📊 Метрики проекта</h2>
 
-<div style="display:flex; flex-wrap:wrap; gap:2rem; justify-content:center; margin:1.5rem 0;">
-  <div style="text-align:center; background:#f8fafc; padding:0.8rem 2rem; border-radius:12px; border:1px solid #e2e8f0; min-width:120px;">
-    <div style="font-size:2.2rem; font-weight:700; color:#3b82f6; animation:count-up 2s ease-out;">9</div>
-    <div style="font-size:0.9rem; color:#64748b;">Эндпоинтов</div>
-  </div>
-  <div style="text-align:center; background:#f8fafc; padding:0.8rem 2rem; border-radius:12px; border:1px solid #e2e8f0; min-width:120px;">
-    <div style="font-size:2.2rem; font-weight:700; color:#22c55e; animation:count-up 2s ease-out;">96%</div>
-    <div style="font-size:0.9rem; color:#64748b;">Покрытие тестами</div>
-  </div>
-  <div style="text-align:center; background:#f8fafc; padding:0.8rem 2rem; border-radius:12px; border:1px solid #e2e8f0; min-width:120px;">
-    <div style="font-size:2.2rem; font-weight:700; color:#eab308; animation:count-up 2s ease-out;">12</div>
-    <div style="font-size:0.9rem; color:#64748b;">Моделей БД</div>
-  </div>
-  <div style="text-align:center; background:#f8fafc; padding:0.8rem 2rem; border-radius:12px; border:1px solid #e2e8f0; min-width:120px;">
-    <div style="font-size:2.2rem; font-weight:700; color:#8b5cf6; animation:count-up 2s ease-out;">100%</div>
-    <div style="font-size:0.9rem; color:#64748b;">ТЗ выполнено</div>
-  </div>
-</div>
-
-<hr>
-
-<h2>🚀 Запуск через Docker Compose</h2>
-
-<div style="background:linear-gradient(135deg,#f8fafc,#eef2ff); padding:1.5rem 2rem; border-radius:16px; border-left:6px solid #3b82f6; margin:1rem 0; box-shadow:0 4px 16px rgba(59,130,246,0.08);">
-  <ol style="margin:0; padding-left:1.5rem;">
-    <li><strong>Клонируйте репозиторий</strong>
-      <pre style="background:#0f172a; color:#e2e8f0; padding:0.6rem 1rem; border-radius:8px; overflow-x:auto;"><code>git clone &lt;url&gt;
-cd &lt;project-folder&gt;</code></pre>
-    </li>
-    <li><strong>Создайте файл <code>.env</code></strong> из <code>.env.example</code> и заполните параметры (см. раздел <a href="#env-vars">Переменные окружения</a>).</li>
-    <li><strong>Запустите контейнеры</strong>
-      <pre style="background:#0f172a; color:#e2e8f0; padding:0.6rem 1rem; border-radius:8px; overflow-x:auto;"><code>docker-compose up -d --build</code></pre>
-    </li>
-    <li><strong>Примените миграции</strong>
-      <pre style="background:#0f172a; color:#e2e8f0; padding:0.6rem 1rem; border-radius:8px; overflow-x:auto;"><code>docker-compose exec app alembic upgrade head</code></pre>
-    </li>
-    <li><strong>(Опционально) Наполните БД тестовыми данными</strong>
-      <pre style="background:#0f172a; color:#e2e8f0; padding:0.6rem 1rem; border-radius:8px; overflow-x:auto;"><code>docker-compose exec app python scripts/seed.py</code></pre>
-    </li>
-  </ol>
-</div>
-
-<p>После запуска:</p>
-<ul>
-  <li>🌐 API: <a href="http://localhost:8000" style="color:#2563eb; text-decoration:none; font-weight:500; border-bottom:2px solid #3b82f6;">http://localhost:8000</a></li>
-  <li>📚 Swagger: <a href="http://localhost:8000/docs" style="color:#2563eb; text-decoration:none; font-weight:500; border-bottom:2px solid #3b82f6;">http://localhost:8000/docs</a></li>
-</ul>
+<table align="center">
+  <tr>
+    <td align="center" width="150" style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px 24px;">
+      <div style="font-size: 2.2rem; font-weight: 700; color: #3b82f6;">9</div>
+      <div style="font-size: 0.9rem; color: #64748b;">Эндпоинтов</div>
+    </td>
+    <td align="center" width="150" style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px 24px;">
+      <div style="font-size: 2.2rem; font-weight: 700; color: #22c55e;">96%</div>
+      <div style="font-size: 0.9rem; color: #64748b;">Покрытие тестами</div>
+    </td>
+    <td align="center" width="150" style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px 24px;">
+      <div style="font-size: 2.2rem; font-weight: 700; color: #eab308;">12</div>
+      <div style="font-size: 0.9rem; color: #64748b;">Моделей БД</div>
+    </td>
+    <td align="center" width="150" style="border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px 24px;">
+      <div style="font-size: 2.2rem; font-weight: 700; color: #8b5cf6;">100%</div>
+      <div style="font-size: 0.9rem; color: #64748b;">ТЗ выполнено</div>
+    </td>
+  </tr>
+</table>
 
 <hr>
 
