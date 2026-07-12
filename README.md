@@ -24,11 +24,11 @@
 <hr style="border:0; border-top:2px dashed #cbd5e1;">
 <div style="display:flex; gap:1.5rem; margin-top:0.8rem; flex-wrap:wrap;">
   <span style="display:flex; align-items:center; gap:0.6rem; background:#fef2f2; padding:0.4rem 1.2rem; border-radius:30px; border:2px solid #ef4444; box-shadow: 0 2px 8px rgba(239,68,68,0.15);">
-    <span style="display:inline-block; width:12px; height:12px; background:#ef4444; border-radius:50%; box-shadow: 0 0 12px rgba(239,68,68,0.5);">⬤</span>
+    <span style="display:inline-block; width:12px; height:12px; background:#ef4444; border-radius:50%; box-shadow: 0 0 12px rgba(239,68,68,0.5);"></span>
     <span style="color:#991b1b; font-weight:600;">🔴 Сервер активен</span>
   </span>
   <span style="display:flex; align-items:center; gap:0.6rem; background:#f0fdf4; padding:0.4rem 1.2rem; border-radius:30px; border:2px solid #22c55e; box-shadow: 0 2px 8px rgba(34,197,94,0.15);">
-    <span style="display:inline-block; width:12px; height:12px; background:#22c55e; border-radius:50%; box-shadow: 0 0 12px rgba(34,197,94,0.5);">⬤</span>
+    <span style="display:inline-block; width:12px; height:12px; background:#22c55e; border-radius:50%; box-shadow: 0 0 12px rgba(34,197,94,0.5);"></span>
     <span style="color:#166534; font-weight:600;">🟢 API готов</span>
   </span>
 </div>
