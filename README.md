@@ -24,24 +24,24 @@
 <hr style="border:0; border-top:2px dashed #cbd5e1;">
 
 <div style="background:linear-gradient(135deg,#f0f9ff,#e0f2fe); padding:1.5rem; border-radius:16px; margin:1.5rem 0; box-shadow:0 8px 24px rgba(59,130,246,0.12); border:1px solid #b3d4fc;">
-  <h3 style="margin-top:0; color:#0f172a;">📌 О проекте</h3>
-  <p style="font-size:1.05rem; line-height:1.7; color:#1e293b;">
-    <strong>Микроблог</strong> — это учебный бэкенд-сервис, имитирующий базовую функциональность Twitter 
-    (лента, твиты, лайки, подписки, загрузка медиа).<br>
-    Проект построен на <strong>FastAPI</strong> с асинхронной архитектурой, использует <strong>PostgreSQL</strong> 
-    в качестве БД и полностью контейнеризирован с помощью <strong>Docker</strong>.<br>
-    Предназначен для отработки навыков разработки REST API, работы с ORM, миграциями и CI/CD.
-  </p>
-  <div style="display:flex; gap:1.5rem; margin-top:0.8rem; flex-wrap:wrap;">
-    <span style="display:flex; align-items:center; gap:0.4rem; background:#dbeafe; padding:0.2rem 1rem; border-radius:30px;">
-      <span style="display:inline-block; width:10px; height:10px; background:#22c55e; border-radius:50%; animation:pulse-dot 1.5s ease-in-out infinite;"></span>
-      Сервер активен
-    </span>
-    <span style="display:flex; align-items:center; gap:0.4rem; background:#dbeafe; padding:0.2rem 1rem; border-radius:30px;">
-      <span style="display:inline-block; width:10px; height:10px; background:#3b82f6; border-radius:50%; animation:spin 2s linear infinite;"></span>
-      API готов
-    </span>
-  </div>
+<h3 style="margin-top:0; color:#0f172a;">📌 О проекте</h3>
+<p style="font-size:1.05rem; line-height:1.7; color:#1e293b;">
+  <strong>Микроблог</strong> — это учебный бэкенд-сервис, имитирующий базовую функциональность Twitter 
+  (лента, твиты, лайки, подписки, загрузка медиа).<br>
+  Проект построен на <strong>FastAPI</strong> с асинхронной архитектурой, использует <strong>PostgreSQL</strong> 
+  в качестве базы данных и полностью контейнеризирован с помощью <strong>Docker</strong>.<br>
+  Предназначен для отработки навыков разработки REST API, работы с ORM, миграциями и CI/CD.
+</p>
+
+<div style="display:flex; gap:1.5rem; margin-top:0.8rem; flex-wrap:wrap;">
+  <span style="display:flex; align-items:center; gap:0.4rem; background:#dbeafe; padding:0.2rem 1rem; border-radius:30px;">
+    <span style="display:inline-block; width:10px; height:10px; background:#22c55e; border-radius:50%; animation:pulse-dot 1.5s ease-in-out infinite;"></span>
+    Сервер активен
+  </span>
+  <span style="display:flex; align-items:center; gap:0.4rem; background:#dbeafe; padding:0.2rem 1rem; border-radius:30px;">
+    <span style="display:inline-block; width:10px; height:10px; background:#3b82f6; border-radius:50%; animation:spin 2s linear infinite;"></span>
+    API готов
+  </span>
 </div>
 
 <style>
