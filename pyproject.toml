@@ -1,0 +1,42 @@
+[tool.poetry]
+package-mode = false
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+
+[tool.ruff.lint]
+# E (Errors), F (Pyflakes), I (Isort/Импорты), UP (Upgrade), B (Bugbear)
+select = ["E", "F", "I", "UP", "B"]
+ignore = []
+
+# Добавляем исключения для файлов, где неиспользуемые импорты необходимы
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["F401"]
+"scr/__int__.py" = ["F401"]
+"alembic/env.py" = ["F401"]
+"tests/conftest.py" = ["F401"]
+"fabfile.py" = ["F401"]
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+ignore_missing_imports = true
+
+# Полностью игнорируем папку миграций Alembic
+exclude = "^alembic/"
+
+# Подключаем плагины для Pydantic и SQLAlchemy
+plugins = [
+    "pydantic.mypy",
+    "sqlalchemy.ext.mypy.plugin"
+]
+
+[tool.pydantic-mypy]
+init_forbid_extra = true
+init_typed = true
+warn_required_dynamic_aliases = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
